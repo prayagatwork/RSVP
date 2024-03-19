@@ -97,7 +97,7 @@
       var regex = /^[a-zA-Z0-9._%+-]+@(sot.pdpu.ac.in)$/; // Regular expression for your organization's email domain
 
       if (!regex.test(email)) {
-        document.getElementById("emailError").textContent = "Invalid email or not from your organization.";
+        document.getElementById("emailError").textContent = "Invalid email / Enter PDEU Email-ID";
         return false; // Prevent form submission
       }
       return true; // Allow form submission
