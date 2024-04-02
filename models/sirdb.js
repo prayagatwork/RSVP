@@ -5,8 +5,12 @@ const UserSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    RollNo:{
+    RoomNo:{
         type:String,
+        required:true
+    },
+    Date:{
+        type:Date,
         required:true
     },
     Details:{
