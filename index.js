@@ -28,7 +28,8 @@ app.get('/', (req, res) => {
 app.post('/', async (req, res) => {
   const user = new User({
     Name: req.body.Name,
-    RollNo: req.body.RollNo,
+    RoomNo: req.body.RoomNo,
+    Date: req.body.Date,
     Details: req.body.Details,
     Email: req.body.Email
   });
